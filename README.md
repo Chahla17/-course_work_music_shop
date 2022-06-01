@@ -22,8 +22,10 @@
 
 
 -- 4. Добавить новый предмет на складе --
-INSERT INTO `music_shop`.`items` (`name`, `cost`, `types_id`, `number_of_items`)
-VALUES ('Электрогитара', '15000', '3', '5');
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">INSERT</span> <span style="color:#800000; font-weight:bold; ">INTO</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; "></span><span style="color:#800000; ">`</span><span style="color:#808030; ">.</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">items</span><span style="color:#800000; ">`</span> <span style="color:#808030; ">(</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">name</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">cost</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">types_id</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">number_of_items</span><span style="color:#800000; ">`</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">VALUES</span> <span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Электрогитара'</span><span style="color:#800080; ">,</span> <span style="color:#0000e6; ">'15000'</span><span style="color:#800080; ">,</span> <span style="color:#0000e6; ">'3'</span><span style="color:#800080; ">,</span> <span style="color:#0000e6; ">'5'</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+</pre>
 
 -- 5. Сделана покупка --
 INSERT INTO `music_shop`.`purchases` (`items_id`, `clients_id`, `personal_id`)
