@@ -9,7 +9,10 @@
 
 
 -- 2. Увольнение сотрудника --
-DELETE FROM `personal` WHERE `full_name` = 'Иван Иванов Сергеевич';
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">DELETE</span> <span style="color:#800000; font-weight:bold; ">FROM</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">personal</span><span style="color:#800000; ">`</span> <span style="color:#800000; font-weight:bold; ">WHERE</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">full_name</span><span style="color:#800000; ">`</span> <span style="color:#808030; ">=</span> <span style="color:#0000e6; ">'Иван Иванов Сергеевич'</span><span style="color:#800080; ">;</span>
+</pre>
+
 
 -- 3. Добавить нового клиента --
 INSERT INTO `music_shop`.`clients` (`full_name`, `phone_number`, `email`)
