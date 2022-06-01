@@ -15,8 +15,11 @@
 
 
 -- 3. Добавить нового клиента --
-INSERT INTO `music_shop`.`clients` (`full_name`, `phone_number`, `email`)
-VALUES ('Иван Другой Виванович', '+79999999998', 'ivan@gmail.com');
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">INSERT</span> <span style="color:#800000; font-weight:bold; ">INTO</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">music_shop</span><span style="color:#800000; ">`</span><span style="color:#808030; ">.</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">clients</span><span style="color:#800000; ">`</span> <span style="color:#808030; ">(</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">full_name</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">phone_number</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">email</span><span style="color:#800000; ">`</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">VALUES</span> <span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Иван </span><span style="color:#0f69ff; ">"</span><span style="color:#0000e6; ">Другой </span>Виванович'<span style="color:#0000e6; ">', '</span><span style="color:#808030; ">+</span><span style="color:#008c00; ">79999999998</span><span style="color:#0000e6; ">', '</span>ivan<span style="color:#797997; ">@gmail</span><span style="color:#808030; ">.</span>com<span style="color:#0000e6; ">');</span>
+</pre>
+
 
 -- 4. Добавить новый предмет на складе --
 INSERT INTO `music_shop`.`items` (`name`, `cost`, `types_id`, `number_of_items`)
