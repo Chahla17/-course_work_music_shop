@@ -2,8 +2,11 @@
 Данная база данных содержит информацию о магазине музыкальных инструментов
 # Типовые запросы к БД
 -- 1. Найм сотрудника --
-INSERT INTO `music_shop`.`personal` (`full_name`, `positions_id`, `salary`)
-VALUES ('Иван Иванов Иванович', '2', '20000');
+
+<pre style="color:#000000;background:#ffffff;"><span style="color:#800000; font-weight:bold; ">INSERT</span> <span style="color:#800000; font-weight:bold; ">INTO</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">music_shop</span><span style="color:#800000; ">`</span><span style="color:#808030; ">.</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">personal</span><span style="color:#800000; ">`</span> <span style="color:#808030; ">(</span><span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">full_name</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">positions_id</span><span style="color:#800000; ">`</span><span style="color:#800080; ">,</span> <span style="color:#800000; ">`</span><span style="color:#000000; background:#ffffff; ">salary</span><span style="color:#800000; ">`</span><span style="color:#808030; ">)</span>
+<span style="color:#800000; font-weight:bold; ">VALUES</span> <span style="color:#808030; ">(</span><span style="color:#0000e6; ">'�ван �ванов �ванович'</span><span style="color:#800080; ">,</span> <span style="color:#0000e6; ">'2'</span><span style="color:#800080; ">,</span> <span style="color:#0000e6; ">'20000'</span><span style="color:#808030; ">)</span><span style="color:#800080; ">;</span>
+</pre>
+
 
 -- 2. Увольнение сотрудника --
 DELETE FROM `personal` WHERE `full_name` = 'Иван Иванов Сергеевич';
